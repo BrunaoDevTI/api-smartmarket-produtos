@@ -25,15 +25,19 @@ Este projeto é uma API RESTful construída com **Python + Flask + SQLite** para
 
 ##  Estrutura do Projeto
 
-```plaintext
+
 smartmarket_api/
-├── app.py              # Arquivo principal com as rotas da API
-├── models.py           # Definição da tabela Produto (ORM)
-├── requirements.txt    # Dependências do projeto
-├── .gitignore          # Arquivos ignorados pelo Git
-├── README.md           # Documentação do projeto
-└── database.db         # Banco de dados SQLite (criado automaticamente)
-▶️ Como rodar localmente
+- app.py              # Arquivo principal com as rotas da API
+- models.py           # Definição da tabela Produto (ORM)
+- requirements.txt    # Dependências do projeto
+- .gitignore          # Arquivos ignorados pelo Git
+- README.md           # Documentação do projeto
+- database.db         # Banco de dados SQLite (criado automaticamente)
+
+---
+
+##  Como rodar localmente:
+
 Clone este repositório:
 
 bash
@@ -47,6 +51,8 @@ bash
 Copiar
 Editar
 python -m venv venv
+---
+
 # Windows:
 venv\Scripts\activate
 # Linux/Mac:
@@ -69,7 +75,8 @@ arduino
 Copiar
 Editar
 http://localhost:5000/
-📬 Exemplos de uso
+
+## Exemplos de uso
 🔹 GET /produtos
 Retorna todos os produtos cadastrados.
 
@@ -99,12 +106,9 @@ Editar
 🔹 DELETE /produtos/1
 Remove o produto com ID 1 do banco.
 
-👨‍💻 Desenvolvido por
+## 👨‍💻 Desenvolvido por
 Bruno Damasceno
 🔗 linkedin.com/in/bruno-damasceno-964a1b25b
 
 🚀 Este projeto faz parte do meu portfólio como desenvolvedor back-end. Feedbacks são bem-vindos!
 
-yaml
-Copiar
-Editar
